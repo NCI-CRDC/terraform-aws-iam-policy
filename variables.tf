@@ -14,6 +14,7 @@ variable "env" {
     error_message = "valid values are 'dev', 'qa', 'stage', 'prod', and 'nonprod'"
   }
 }
+
 variable "program" {
   type        = string
   description = "the program associated with the application"
@@ -23,4 +24,25 @@ variable "program" {
     condition     = contains(["crdc", "ccdi", "ctos"], var.program)
     error_message = "valid values for program are 'crdc', 'ccdi', and 'ctos'"
   }
+}
+
+variable "description" {
+  type        = string
+  description = "description of the policy"
+}
+
+variable "path" {
+  type        = string
+  description = "the policy path"
+  default     = null
+}
+
+variable "policy" {
+  type        = string
+  description = "the policy document to attach to this policy resource"
+}
+
+variable "policy_suffix" {
+  type        = string
+  description = "the policy name suffix that follows the stack name"
 }
