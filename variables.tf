@@ -42,7 +42,7 @@ variable "policy" {
   description = "the policy document to attach to this policy resource"
 }
 
-variable "policy_suffix" {
+variable "resource_name_suffix" {
   type        = string
-  description = "the policy name suffix that follows the stack name"
+  description = "the resource name suffix that follows the stack name"
 }
