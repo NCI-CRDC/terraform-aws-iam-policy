@@ -27,7 +27,6 @@ No modules.
 | Name | Type |
 |------|------|
 | [aws_iam_policy.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_policy) | resource |
-| [aws_iam_role_policy_attachment.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_role_policy_attachment) | resource |
 
 # Inputs
 
@@ -40,7 +39,6 @@ No modules.
 | <a name="input_policy"></a> [policy](#input\_policy) | the policy document to attach to this policy resource | `string` | n/a | yes |
 | <a name="input_policy_suffix"></a> [policy\_suffix](#input\_policy\_suffix) | the policy name suffix that follows the stack name | `string` | n/a | yes |
 | <a name="input_program"></a> [program](#input\_program) | the program associated with the application | `string` | n/a | yes |
-| <a name="input_role_name"></a> [role\_name](#input\_role\_name) | the name of the role to attach the policy to - providing 'null' will not attach the policy to any role | `string` | n/a | yes |
 
 # Outputs
 
