@@ -46,8 +46,3 @@ variable "policy_suffix" {
   type        = string
   description = "the policy name suffix that follows the stack name"
 }
-
-variable "role_name" {
-  type = string 
-  description = "the name of the role to attach the policy to - providing 'null' will not attach the policy to any role"
-}
