@@ -37,8 +37,8 @@ No modules.
 | <a name="input_env"></a> [env](#input\_env) | the target tier ('dev', 'qa', 'stage', or 'prod'.) | `string` | n/a | yes |
 | <a name="input_path"></a> [path](#input\_path) | the policy path | `string` | `null` | no |
 | <a name="input_policy"></a> [policy](#input\_policy) | the policy document to attach to this policy resource | `string` | n/a | yes |
-| <a name="input_policy_suffix"></a> [policy\_suffix](#input\_policy\_suffix) | the policy name suffix that follows the stack name | `string` | n/a | yes |
 | <a name="input_program"></a> [program](#input\_program) | the program associated with the application | `string` | n/a | yes |
+| <a name="input_resource_name_suffix"></a> [resource\_name\_suffix](#input\_resource\_name\_suffix) | the resource name suffix that follows the stack name | `string` | n/a | yes |
 
 # Outputs
 
